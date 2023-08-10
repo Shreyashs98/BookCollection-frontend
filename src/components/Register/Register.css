@@ -1,0 +1,49 @@
+.container-height {
+  height: 90vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bedfefb7; /* Set a light background color for the container */
+  padding: 20px; /* Add some padding to create spacing */
+}
+
+.container-height .inner-content {
+  max-width: 600px;
+  text-align: center;
+}
+
+.container-height h1 {
+  font-size: 2.5rem;
+  color: #333333; /* Set a dark color for the heading */
+  margin-bottom: 20px;
+}
+
+.container-height p {
+  font-size: 1.2rem;
+  color: #555555; /* Set a slightly darker color for the paragraphs */
+  line-height: 1.6;
+}
+
+.container-height label {
+  /* Set the label color to a darker shade of gray for better visibility */
+  color: #444444;
+}
+
+.container-height .btn {
+  font-weight: bold;
+  margin-top: 30px;
+  color: #4ac6d9;
+  background-color: #FF4500;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.25rem;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.container-height .btn:hover {
+  background-color: #FF6347;
+  transform: scale(1.05);
+}
