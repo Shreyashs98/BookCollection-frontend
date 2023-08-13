@@ -39,7 +39,7 @@ const AddBook = () => {
             className='btn btn-primary'
             data-toggle='modal'
             data-target='#exampleModal'>
-            Click to add Book.
+            Add Book
           </button>
 
           <div
